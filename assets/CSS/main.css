@@ -1,13 +1,29 @@
 /*
   =======================
+  Global Settings
+  =======================
+*/
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../../fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../../fonts/cocogoose/Cocogoose Pro Italic-trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+/*
+  =======================
   General layout
   =======================
 */
-
-
-
 /*
   =======================
   Typography
   =======================
 */
+
+/*# sourceMappingURL=main.css.map */
