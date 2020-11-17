@@ -61,4 +61,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
+- Font: Cocogoose Pro Family by Zetafonts -http://www.zetafonts.com/collection/308

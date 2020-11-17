@@ -1,0 +1,97 @@
+/*
+  =======================
+  Global stylings
+  =======================
+*/
+
+@font-face {
+  font-family: 'Cocogoose-Pro';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro-trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Semilight';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Light';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Light-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Ultralight';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Ultralight-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Letter-press';
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS\ TRIAL.ttf") format("truetype");
+}
+
+// Colors //
+
+$primary-color: #ec5242;
+$secondary-color: #272a31;
+$gray: #d3d3d3;
+$gray-dark: #2e2e2e;
+
+// Fonts //
+
+$primary-font: 'Lato', sans-serif;
+
+/*
+  =======================
+  General layout
+  =======================
+*/
+
+body {
+  color: $primary-color;
+  font-family: 'Cocogoose-Pro';
+  background-color: $secondary-color;
+  font-size: 40px;
+}
+
+.semi-light {
+  color: $primary-color;
+  font-family: 'Cocogoose-Pro-Semilight';
+  background-color: $secondary-color;
+  font-size: 40px;
+}
+
+.light {
+  color: $primary-color;
+  font-family: 'Cocogoose-Pro-Light';
+  background-color: $secondary-color;
+  font-size: 40px;
+}
+
+.ultra-light {
+  color: $primary-color;
+  font-family: 'Cocogoose-Pro-Ultralight';
+  background-color: $secondary-color;
+  font-size: 40px;
+}
+
+.letter-press {
+  color: $primary-color;
+  font-family: 'Cocogoose-Letter-press';
+  background-color: $secondary-color;
+  font-size: 40px;
+}
+
+.bodyfont {
+  color: $primary-color;
+  font-family: $primary-font;
+  background-color: $secondary-color;
+  font-size: 40px;
+  text-transform: lowercase;
+}
+/*
+  =======================
+  Typography
+  =======================
+*/
