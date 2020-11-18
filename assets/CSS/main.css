@@ -1,25 +1,78 @@
 /*
   =======================
-  Global Settings
+  Global stylings
   =======================
 */
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+  font-family: "Cocogoose-Pro";
+  src: url("../fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../../fonts/cocogoose/Cocogoose Pro Italic-trial.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
+  font-family: "Cocogoose-Pro-Semilight";
+  src: url("../fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Light";
+  src: url("../fonts/cocogoose/Cocogoose Pro Light-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Ultralight";
+  src: url("../fonts/cocogoose/Cocogoose Pro Ultralight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Letter-press";
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
 }
 /*
   =======================
   General layout
   =======================
 */
+body {
+  color: #ec5242;
+  font-family: "Cocogoose-Pro";
+  background-color: #272a31;
+  font-size: 40px;
+}
+
+.semi-light {
+  color: #ec5242;
+  font-family: "Cocogoose-Pro-Semilight";
+  background-color: #272a31;
+  font-size: 40px;
+}
+
+.light {
+  color: #ec5242;
+  font-family: "Cocogoose-Pro-Light";
+  background-color: #272a31;
+  font-size: 40px;
+}
+
+.ultra-light {
+  color: #ec5242;
+  font-family: "Cocogoose-Pro-Ultralight";
+  background-color: #272a31;
+  font-size: 40px;
+}
+
+.letter-press {
+  color: #ec5242;
+  font-family: "Cocogoose-Letter-press";
+  background-color: #272a31;
+  font-size: 40px;
+}
+
+.bodyfont {
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  background-color: #272a31;
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
 /*
   =======================
   Typography
