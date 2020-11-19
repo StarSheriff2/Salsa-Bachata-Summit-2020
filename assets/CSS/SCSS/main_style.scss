@@ -98,6 +98,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 /*
@@ -134,9 +135,39 @@ a:hover {
 */
 
 .main-program {
-  background-color: $gray-dark;
-  color: white;
+  background-color: $secondary-color;
+  color: rgba(255,255,255,0.8);
   font-size: 1rem;
+  font-weight: 300;
+}
+
+.red-underline::before {
+  position: absolute;
+  content: "";
+  border-bottom: $primary-color 1px solid;
+  bottom: 0;
+  width: 30px;
+}
+
+.main-program-feature {
+  background-color: rgba(255,255,255,0.05);
+  display: grid;
+  grid-template-columns: auto 1fr 58%;
+  grid-column-gap: 1em;
+  align-items: center;
+  max-width: 500px;
+}
+
+.main-program-feature i.fas {
+  font-size: 1.8em;
+}
+
+.main-program-feature-title {
+  color: $primary-color;
+}
+
+.main-program-feature-para {
+  line-height: 1.4em;
 }
 
 .main-program-mobile-join {
