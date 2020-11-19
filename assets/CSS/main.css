@@ -4,8 +4,8 @@
   =======================
 */
 @font-face {
-  font-family: "Cocogoose-Pro";
-  src: url("../fonts/cocogoose/Cocogoose Pro-trial.ttf") format("truetype");
+  font-family: "Cocogoose_Regular";
+  src: url("../fonts/cocogoose/Cocogoose_trial.otf") format("opentype"), url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"), url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"), url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"), url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,52 +25,18 @@
   font-family: "Cocogoose-Letter-press";
   src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
 }
+html {
+  font-size: 12px;
+}
+
 /*
   =======================
   General layout
   =======================
 */
-body {
-  color: #ec5242;
-  font-family: "Cocogoose-Pro";
-  background-color: #272a31;
-  font-size: 40px;
-}
-
-.semi-light {
-  color: #ec5242;
-  font-family: "Cocogoose-Pro-Semilight";
-  background-color: #272a31;
-  font-size: 40px;
-}
-
-.light {
-  color: #ec5242;
-  font-family: "Cocogoose-Pro-Light";
-  background-color: #272a31;
-  font-size: 40px;
-}
-
-.ultra-light {
-  color: #ec5242;
-  font-family: "Cocogoose-Pro-Ultralight";
-  background-color: #272a31;
-  font-size: 40px;
-}
-
-.letter-press {
-  color: #ec5242;
-  font-family: "Cocogoose-Letter-press";
-  background-color: #272a31;
-  font-size: 40px;
-}
-
-.bodyfont {
-  color: #ec5242;
-  font-family: "Lato", sans-serif;
-  background-color: #272a31;
-  font-size: 40px;
-  text-transform: lowercase;
+.hidden {
+  position: absolute;
+  left: -9999999px;
 }
 
 /*
@@ -78,5 +44,78 @@ body {
   Typography
   =======================
 */
+body {
+  font: 400 1rem/1.3rem "Lato", sans-serif;
+  letter-spacing: normal;
+  color: #565656;
+}
+
+h1 {
+  font: 400 1em/1.1em "Cocogoose_Regular", sans-serif;
+  letter-spacing: normal;
+}
+
+h2,
+h3 {
+  font: 400 1.4em/1.3em "Lato", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+a {
+  font: inherit inherit/inherit inherit;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*
+  =======================
+  Above the Fold
+  =======================
+*/
+.above-fold {
+  background-color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.main-section-title {
+  font-size: 2.3em;
+}
+
+.main-section-title span {
+  font: normal 0.55em/1.3em "Cocogoose-Pro-Light", sans-serif;
+  letter-spacing: normal;
+}
+
+.event-date {
+  font: 400 1.75em/1.1em "Cocogoose_Regular", sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.event-date-para {
+  font-size: 1.08em;
+}
+
+/*
+  =======================
+  Main Program
+  =======================
+*/
+.main-program {
+  background-color: #2e2e2e;
+  color: white;
+  font-size: 1rem;
+}
+
+.main-program-mobile-join {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: #ec5242;
+  padding: 1.8em 3.5em;
+}
 
 /*# sourceMappingURL=main.css.map */

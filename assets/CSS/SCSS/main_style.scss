@@ -5,8 +5,12 @@
 */
 
 @font-face {
-  font-family: 'Cocogoose-Pro';
-  src: url('../fonts/cocogoose/Cocogoose\ Pro-trial.ttf') format('truetype');
+  font-family: 'Cocogoose_Regular';
+  src:  url('../fonts/cocogoose/Cocogoose_trial.otf') format('opentype'),
+        url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"),
+        url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"),
+        url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"),
+        url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -31,16 +35,30 @@
   src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS\ TRIAL.ttf") format("truetype");
 }
 
+html {
+  font-size: 12px;
+}
+
 // Colors //
 
 $primary-color: #ec5242;
 $secondary-color: #272a31;
 $gray: #d3d3d3;
+$light-gray: #f5f5f5;
 $gray-dark: #2e2e2e;
+$gray-font: #565656;
 
 // Fonts //
 
 $primary-font: 'Lato', sans-serif;
+$secondary-font: 'Cocogoose_Regular', sans-serif;
+$secondary-font-semilight: 'Cocogoose-Pro-Semilight', sans-serif;
+$primary-font-light: 'Cocogoose-Pro-Light', sans-serif;
+
+@mixin font-styles($weight: 400, $font-size: 1em, $line-height: 1.3em, $font: $primary-font, $letter-spacing: normal) {
+  font: $weight #{$font-size}/#{$line-height} $font;
+  letter-spacing: $letter-spacing;
+}
 
 /*
   =======================
@@ -48,50 +66,83 @@ $primary-font: 'Lato', sans-serif;
   =======================
 */
 
-body {
-  color: $primary-color;
-  font-family: 'Cocogoose-Pro';
-  background-color: $secondary-color;
-  font-size: 40px;
+.hidden {
+  position: absolute;
+  left: -9999999px;
 }
 
-.semi-light {
-  color: $primary-color;
-  font-family: 'Cocogoose-Pro-Semilight';
-  background-color: $secondary-color;
-  font-size: 40px;
-}
-
-.light {
-  color: $primary-color;
-  font-family: 'Cocogoose-Pro-Light';
-  background-color: $secondary-color;
-  font-size: 40px;
-}
-
-.ultra-light {
-  color: $primary-color;
-  font-family: 'Cocogoose-Pro-Ultralight';
-  background-color: $secondary-color;
-  font-size: 40px;
-}
-
-.letter-press {
-  color: $primary-color;
-  font-family: 'Cocogoose-Letter-press';
-  background-color: $secondary-color;
-  font-size: 40px;
-}
-
-.bodyfont {
-  color: $primary-color;
-  font-family: $primary-font;
-  background-color: $secondary-color;
-  font-size: 40px;
-  text-transform: lowercase;
-}
 /*
   =======================
   Typography
   =======================
 */
+
+body {
+  @include font-styles($font-size: 1rem, $line-height: 1.3rem);
+  color: $gray-font;
+}
+
+h1 {
+  @include font-styles($font-size: 1em, $line-height: 1.1em, $font: $secondary-font);
+}
+
+h2,
+h3 {
+  @include font-styles($font-size: 1.4em, $font: $primary-font, $letter-spacing: -0.3px);
+}
+
+a {
+  @include font-styles(inherit, inherit, inherit, inherit);
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*
+  =======================
+  Above the Fold
+  =======================
+*/
+
+.above-fold {
+  background-color: $light-gray;
+  font-size: 1rem;
+}
+
+.main-section-title {
+  font-size: 2.3em;
+}
+
+.main-section-title span {
+  @include font-styles($weight: normal, $font-size: 0.55em, $font: $primary-font-light);
+}
+
+.event-date {
+  @include font-styles($font-size: 1.75em, $line-height: 1.1em, $font: $secondary-font, $letter-spacing: -0.2px);
+}
+
+.event-date-para {
+  font-size: 1.08em;
+}
+
+/*
+  =======================
+  Main Program
+  =======================
+*/
+
+.main-program {
+  background-color: $gray-dark;
+  color: white;
+  font-size: 1rem;
+}
+
+.main-program-mobile-join {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: $primary-color;
+  padding: 1.8em 3.5em;
+}
