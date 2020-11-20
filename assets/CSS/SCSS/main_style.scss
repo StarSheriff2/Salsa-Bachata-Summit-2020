@@ -168,7 +168,7 @@ a:hover {
   grid-template-columns: auto 22.5% 58%;
   grid-column-gap: 1em;
   align-items: center;
-  max-width: 450px;
+  max-width: 650px;
 }
 
 .main-program-feature i.fas {
@@ -202,7 +202,7 @@ a:hover {
 .featured-speakers {
   font-size: 1rem;
   color: $secondary-color;
-  max-width: 450px;
+  max-width: 650px;
 }
 
 .featured-speakers-title,
@@ -211,8 +211,8 @@ a:hover {
 }
 
 .profile-picture-div {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
 }
 
 .profile-pattern {
@@ -224,18 +224,14 @@ a:hover {
 
 .profile-picture {
   object-fit: cover;
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   bottom: 0;
   right: 0;
 }
 
 .position-correction {
   object-position: center top;
-}
-
-.speaker-text {
-  display: grid;
 }
 
 .speaker-name {
@@ -246,7 +242,7 @@ a:hover {
   color: #ec5242;
 }
 
-.speaker-text hr {
+.featured-speakers-profile hr {
   width: 1.3em;
   border-color: $gray;
   border-width: 2px;
@@ -255,3 +251,11 @@ a:hover {
 .speaker-summary {
   font-size: 0.9em;
 }
+
+/*
+  =======================
+  Footer
+  =======================
+*/
+
+/* Partner */
