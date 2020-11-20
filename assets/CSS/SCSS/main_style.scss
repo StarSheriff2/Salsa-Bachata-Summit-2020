@@ -39,14 +39,14 @@ html {
   font-size: 13px;
 }
 
-// Colors //
+// Background Colors //
 
 $primary-color: #ec5242;
 $secondary-color: #272a31;
 $gray: #d3d3d3;
 $light-gray: #f5f5f5;
 $gray-dark: #2e2e2e;
-$gray-font: #565656;
+$gray-semidark: #414246;
 
 // Fonts //
 
@@ -54,6 +54,11 @@ $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Cocogoose_Regular', sans-serif;
 $secondary-font-semilight: 'Cocogoose-Pro-Semilight', sans-serif;
 $primary-font-light: 'Cocogoose-Pro-Light', sans-serif;
+
+// Font Colors //
+
+$gray-font: #565656;
+$white-font: rgba(255,255,255,0.8);
 
 @mixin font-styles($weight: 400, $font-size: 1em, $line-height: 1.3em, $font: $primary-font, $letter-spacing: normal) {
   font: $weight #{$font-size}/#{$line-height} $font;
@@ -116,6 +121,22 @@ a:hover {
 
 /*
   =======================
+  Header
+  =======================
+*/
+
+.header {
+  font-size: 1rem;
+  background-color: $light-gray;
+}
+
+.fa-bars {
+  font-size: 4.2em;
+  color: $gray-font;
+}
+
+/*
+  =======================
   Above the Fold
   =======================
 */
@@ -123,10 +144,12 @@ a:hover {
 .above-fold {
   background-color: $light-gray;
   font-size: 1rem;
+  padding-bottom: 6.85em;
 }
 
 .main-section-title {
   font-size: 2.3em;
+  color: $primary-color;
 }
 
 .main-section-title span {
@@ -149,7 +172,7 @@ a:hover {
 
 .main-program {
   background-color: $secondary-color;
-  color: rgba(255,255,255,0.8);
+  color: $white-font;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -259,3 +282,43 @@ a:hover {
 */
 
 /* Partner */
+
+.partner {
+  font-size: 1rem;
+  background-color: $gray-semidark;
+  color: $gray;
+}
+
+.logo-container {
+  width: 175px;
+  height: 100px;
+  padding: 25px;
+}
+
+.logo {
+  width: 100%;
+  min-width: 125px;
+  height: auto;
+  object-fit: contain;
+  opacity: 77%;
+}
+
+.color-correction {
+  -webkit-filter: brightness(0) invert(100%);
+  filter: brightness(0) invert(100%);
+}
+
+/* Copyright */
+
+.copyright {
+  font-size: 1rem;
+  color: $gray-font;
+  max-width: 650px;
+}
+
+.salsa-style-logo {
+  width: 175px;
+  box-sizing: content-box;
+  filter: grayscale(100%);
+  opacity: 77%;
+}
