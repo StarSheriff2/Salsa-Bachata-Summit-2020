@@ -26,7 +26,7 @@
   src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
 }
 html {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 /*
@@ -37,6 +37,11 @@ html {
 .hidden {
   position: absolute;
   left: -9999999px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
 }
 
 /*
@@ -55,10 +60,13 @@ h1 {
   letter-spacing: normal;
 }
 
-h2,
-h3 {
+h3, h2 {
   font: 400 1.4em/1.3em "Lato", sans-serif;
   letter-spacing: -0.3px;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 a {
@@ -115,22 +123,23 @@ a:hover {
 .red-underline::before {
   position: absolute;
   content: "";
-  border-bottom: #ec5242 1px solid;
+  border-bottom: #ec5242 2px solid;
   bottom: 0;
-  width: 30px;
+  width: 35px;
 }
 
 .main-program-feature {
   background-color: rgba(255, 255, 255, 0.05);
   display: grid;
-  grid-template-columns: auto 1fr 58%;
+  grid-template-columns: auto 22.5% 58%;
   grid-column-gap: 1em;
   align-items: center;
-  max-width: 500px;
+  max-width: 450px;
 }
 
 .main-program-feature i.fas {
-  font-size: 1.8em;
+  font-size: 2em;
+  text-align: right;
 }
 
 .main-program-feature-title {
@@ -146,7 +155,71 @@ a:hover {
   font-size: 1.1em;
   font-weight: 400;
   background-color: #ec5242;
-  padding: 1.8em 3.5em;
+  padding: 1.8em 0;
+  width: 300px;
+  min-width: auto;
+}
+
+/*
+  =======================
+  Featured Speakers
+  =======================
+*/
+.featured-speakers {
+  font-size: 1rem;
+  color: #272a31;
+  max-width: 450px;
+}
+
+.featured-speakers-title,
+.speaker-name {
+  font-weight: 600;
+}
+
+.profile-picture-div {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-pattern {
+  width: 45%;
+  height: 45%;
+  background-color: #d3d3d3;
+  background: url("../images/black-square-pattern.png") -10px -5px/50% repeat;
+}
+
+.profile-picture {
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+  bottom: 0;
+  right: 0;
+}
+
+.position-correction {
+  object-position: center top;
+}
+
+.speaker-text {
+  display: grid;
+}
+
+.speaker-name {
+  font-size: 1.15em;
+}
+
+.speaker-sub-title {
+  color: #ec5242;
+}
+
+.speaker-text hr {
+  width: 1.3em;
+  border-color: #d3d3d3;
+  border-width: 2px;
+}
+
+.speaker-summary {
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=main.css.map */
