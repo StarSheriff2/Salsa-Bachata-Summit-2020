@@ -116,6 +116,11 @@ a:hover {
   letter-spacing: normal;
 }
 
+.above-fold-para {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 .event-date {
   font: 400 1.75em/1.1em "Cocogoose_Regular", sans-serif;
   letter-spacing: -0.2px;

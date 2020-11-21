@@ -156,6 +156,11 @@ a:hover {
   @include font-styles($weight: normal, $font-size: 0.55em, $line-height: 3em,$font: $primary-font-light);
 }
 
+.above-fold-para {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 .event-date {
   @include font-styles($font-size: 1.75em, $line-height: 1.1em, $font: $secondary-font, $letter-spacing: -0.2px);
 }

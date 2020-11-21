@@ -50,7 +50,7 @@ html {
   =======================
 */
 body {
-  font: 400 1rem/1.3rem "Lato", sans-serif;
+  font: 400 1rem/2rem "Lato", sans-serif;
   letter-spacing: normal;
   color: #565656;
 }
@@ -86,13 +86,77 @@ a:hover {
   =======================
 */
 .above-fold {
-  background-color: #f5f5f5;
-  font-size: 1rem;
-  padding-bottom: 6.85em;
+  padding-bottom: 1em;
 }
 
 .main-section-title {
   font-size: 2.1em;
+}
+
+.above-fold-para {
+  background-color: #fefefe;
+}
+
+.about-section-para {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/*
+  =======================
+  Logo Selection
+  =======================
+*/
+.section-title {
+  font-weight: 600;
+}
+
+.logo {
+  max-width: 300px;
+  min-width: 100px;
+  height: auto;
+}
+
+/*
+  =======================
+  Past S&B Summits
+  =======================
+*/
+.past-summit-link {
+  margin: 0.5em 0;
+  color: #fefefe;
+  width: 100%;
+  height: 0;
+  padding-top: 55%;
+}
+
+.past-summit-bg,
+.past-summit-para {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.past-summit-bg {
+  background-color: #ec5242;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../images/S&BC2019.jpg") center center/cover;
+}
+
+.past-summit-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-summit-para h3 {
+  font-size: 2.7em;
+  font-weight: 600;
+}
+
+.past-summit-para span {
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=about.css.map */
