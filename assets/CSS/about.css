@@ -1,0 +1,83 @@
+/*
+  =======================
+  Global stylings
+  =======================
+*/
+@font-face {
+  font-family: "Cocogoose_Regular";
+  src: url("../fonts/cocogoose/Cocogoose_trial.otf") format("opentype"), url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"), url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"), url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"), url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Semilight";
+  src: url("../fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Light";
+  src: url("../fonts/cocogoose/Cocogoose Pro Light-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Ultralight";
+  src: url("../fonts/cocogoose/Cocogoose Pro Ultralight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Letter-press";
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
+}
+html {
+  font-size: 13px;
+}
+
+/*
+  =======================
+  General layout
+  =======================
+*/
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+body {
+  font: 400 1rem/1.3rem "Lato", sans-serif;
+  letter-spacing: normal;
+  color: #565656;
+}
+
+h1 {
+  font: 400 1em/1.1em "Cocogoose_Regular", sans-serif;
+  letter-spacing: normal;
+}
+
+h3, h2 {
+  font: 400 1.4em/1.3em "Lato", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+a {
+  font: inherit inherit/inherit inherit;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=about.css.map */

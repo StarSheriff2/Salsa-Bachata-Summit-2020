@@ -228,6 +228,7 @@ div.ticket-type-slection {
   color: rgba(255, 255, 255, 0.8);
   border: none;
   margin: 3em 1em 1em;
+  max-width: 275px;
 }
 
 /*# sourceMappingURL=tickets.css.map */
