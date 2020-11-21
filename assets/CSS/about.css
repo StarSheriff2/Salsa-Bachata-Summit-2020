@@ -80,4 +80,19 @@ a:hover {
   color: inherit;
 }
 
+/*
+  =======================
+  Above the Fold
+  =======================
+*/
+.above-fold {
+  background-color: #f5f5f5;
+  font-size: 1rem;
+  padding-bottom: 6.85em;
+}
+
+.main-section-title {
+  font-size: 2.1em;
+}
+
 /*# sourceMappingURL=about.css.map */

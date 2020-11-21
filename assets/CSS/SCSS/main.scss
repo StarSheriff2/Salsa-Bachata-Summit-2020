@@ -153,8 +153,7 @@ a:hover {
 }
 
 .main-section-title span {
-  @include font-styles($weight: normal, $font-size: 0.55em, $font: $primary-font-light);
-  margin-bottom: 2em;
+  @include font-styles($weight: normal, $font-size: 0.55em, $line-height: 3em,$font: $primary-font-light);
 }
 
 .event-date {

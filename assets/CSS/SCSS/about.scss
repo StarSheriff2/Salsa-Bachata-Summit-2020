@@ -123,3 +123,19 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
+
+/*
+  =======================
+  Above the Fold
+  =======================
+*/
+
+.above-fold {
+  background-color: $light-gray;
+  font-size: 1rem;
+  padding-bottom: 6.85em;
+}
+
+.main-section-title {
+  font-size: 2.1em;
+}
