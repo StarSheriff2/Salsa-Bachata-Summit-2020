@@ -91,6 +91,7 @@ $white-font: rgba(255,255,255,0.8);
 body {
   @include font-styles($font-size: 1rem, $line-height: 1.3rem);
   color: $gray-font;
+  background-color: $light-gray;
 }
 
 h1 {
@@ -128,7 +129,6 @@ a:hover {
 
 .header {
   font-size: 1rem;
-  background-color: $light-gray;
 }
 
 /* Top Nav (Desktop) */
@@ -363,6 +363,10 @@ a:hover {
 @media (min-width: 768px) {
 
   /* Header */
+
+  .header {
+    background-color: $light-gray;
+  }
 
   .bottom-nav {
     background-color: $ultra-light-gray;

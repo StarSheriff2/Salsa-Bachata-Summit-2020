@@ -53,6 +53,7 @@ body {
   font: 400 1rem/1.3rem "Lato", sans-serif;
   letter-spacing: normal;
   color: #565656;
+  background-color: #f5f5f5;
 }
 
 h1 {
@@ -87,7 +88,6 @@ a:hover {
 */
 .header {
   font-size: 1rem;
-  background-color: #f5f5f5;
 }
 
 /* Top Nav (Desktop) */
@@ -314,6 +314,10 @@ a:hover {
 */
 @media (min-width: 768px) {
   /* Header */
+  .header {
+    background-color: #f5f5f5;
+  }
+
   .bottom-nav {
     background-color: #fefefe;
   }
