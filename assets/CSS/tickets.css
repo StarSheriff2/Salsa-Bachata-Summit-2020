@@ -94,7 +94,7 @@ a:hover {
 .select-tickets {
   font-size: 1rem;
   padding-top: 50px;
-  max-width: 450px;
+  max-width: 600px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
@@ -130,6 +130,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 50px;
+  overflow: scroll;
 }
 
 .tickets-g-container {
@@ -186,7 +187,7 @@ div.ticket-type-slection {
   =======================
 */
 .select-menu {
-  max-width: 450px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -223,9 +224,10 @@ div.ticket-type-slection {
 
 .ticket-submit-button {
   background-color: #ec5242;
-  padding: 1.5em 3em;
+  padding: 1.5em 1em;
   color: rgba(255, 255, 255, 0.8);
   border: none;
+  margin: 3em 1em 1em;
 }
 
 /*# sourceMappingURL=tickets.css.map */
