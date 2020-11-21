@@ -148,6 +148,9 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 1.2em;
 }
 
 .past-summit-para h3 {
