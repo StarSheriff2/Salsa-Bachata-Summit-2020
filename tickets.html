@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/CSS/main.css">
+  <link rel="stylesheet" href="assets/CSS/tickets.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -18,69 +19,104 @@
   <!--======= Header =======-->
   <header class="header p-3">
     <h1 class="hidden">Header</h1>
-    <nav class="bottom-nav mb-2">
+    <nav class="bottom-nav mb-2 overflow-hidden">
       <h2 class="hidden">Mobile Menu</h2>
-      <button class="nav-button-mobile m-0 px-4 py-3 mb-2 bg-transparent border-0" type="button"><i class="px-2 fas fa-bars"></i></button>
+      <button class="nav-button-mobile m-0 px-4 py-3 mb-2 bg-transparent border-0" type="button"><i
+          class="px-2 fas fa-bars"></i></button>
     </nav>
   </header>
   <main class="main">
-    <h1 class="hidden">Main Section</h1>
-    <!--======= Above the Fold Section on Mobile =======-->
-    <section class="above-fold px-3">
-      <h1 class="main-section-title overflow-hidden px-1"><span>"Azucar! Dance mode on"</span>
-        <br>SALSA AND BACHATA SUMMIT<br>2020</h1>
-      <p class="above-fold-para overflow-hidden px-3 py-4 border border-white">An annual Salsa celebration, with top
-        performers from all
-        of latin america for one week
-        of music and dance is taking place in July, in Honduras.</p>
-      <section class="event-date-div px-1">
-        <h2 class="hidden">Event Date</h2>
-        <p class="event-date overflow-hidden mb-2">2020.07.15(WED) ~ 19(SUN)</p>
-        <p class="event-date-para overflow-hidden">@ Salon Enrique X, Hotel Clarion</p>
-      </section>
-    </section>
-    
-  <!--======= Footer =======-->
-  <footer class="footer px-2 py-4 mx-auto">
-    <h1 class="hidden">footer</h1>
-    <!-- Partner -->
-    <section class="partner px-3 py-4">
-      <h2 class="partner-title d-flex justify-content-center position-relative my-3 pb-3 red-underline">Partner</h2>
-      <div class="partner-list d-flex flex-wrap overflow-hidden justify-content-around">
-        <div class="logo-container d-flex align-items-center">
-          <img src="assets/images/aa-logo.png" alt="American Airlines logo" class="logo aa-logo">
-        </div>
-        <div class="logo-container d-flex align-items-center">
-          <img src="assets/images/booking-logo.png" alt="Booking.com logo" class="logo color-correction booking-logo">
-        </div>
-        <div class="logo-container d-flex align-items-center">
-          <img src="assets/images/trivago-logo.png" alt="Trivago logo" class="logo color-correction trivago-logo">
-        </div>
-        <div class="logo-container d-flex align-items-center">
-          <img src="assets/images/absolut-vodka-logo.png" alt="Absolut Vodka logo" class="logo absolut-logo">
-        </div>
-        <div class="logo-container d-flex align-items-center">
-          <img src="assets/images/marriot-logo.png" alt="Marriot Hotels logo" class="logo marriot-logo">
-        </div>
+    <h1 class="hidden">Tickets Page</h1>
+    <!--======= Tickets Page =======-->
+    <section class="select-tickets px-3 py-4">
+      <h2 class="select-tickets-title d-flex justify-content-center position-relative my-3 pb-3 red-underline">Select
+        Tickets</h2>
+      <div
+        class="ticket-buy-steps border overflow-hidden tickets-step-1 text-center justify-content-center align-items-center d-flex flex-wrap mx-auto px-4 py-3">
+        <ul class="m-0 list-unstyled">
+          <li class="tickets-step-li justify-content-center overflow-hidden align-items-center d-flex flex-nowrap">
+            <h3 class="my-0 p-2 text-nowrap"><a href="#">Step 1</a></h3>
+          </li>
+        </ul>
+        <p class="step-1-para my-0 p-2">Please select your ticket type to join S&B Summit 2020</p>
       </div>
+      <form action="post" class="tickets-g-container my-4 mx-auto overflow-hidden">
+        <div class="tickets-g-item 1-day-ticket">
+          <div class="ticket-type">Ticket</div>
+          <div class="ticket-type-slection">1-Day-Ticket</div>
+          <div>Valid Thru</div>
+          <div>1 Day</div>
+          <div>Normal</div>
+          <div class="ticket-choice">
+            <label for="600-1-day-normal">HNL600</label>
+            <input id="600-1-day-normal" value="600-1-day-normal" type="radio" name="ticket-selection">
+          </div>
+          <div>Students</div>
+          <div class="ticket-choice">
+            <label for="300-1-day-student">HNL300</label>
+            <input id="300-1-day-student" value="300-1-day-student" type="radio" name="ticket-selection">
+          </div>
+        </div>
+        <div class="tickets-g-item 2-day-ticket">
+          <div class="ticket-type">Ticket</div>
+          <div class="ticket-type-slection">2-Day-Ticket</div>
+          <div>Valid Thru</div>
+          <div>2 Days</div>
+          <div>Normal</div>
+          <div class="ticket-choice">
+            <label for="HNL1000-2-days-normal">HNL1000</label>
+            <input id="HNL1000-2-days-normal" value="1000-2-days-normal" type="radio" name="ticket-selection">
+          </div>
+          <div>Students</div>
+          <div class="ticket-choice">
+            <label for="500-2-days-students">HNL500</label>
+            <input id="500-2-days-students" value="500-2-days-students" type="radio" name="ticket-selection">
+          </div>
+        </div>
+        <div class="tickets-g-item full-pass-ticket">
+          <div class="ticket-type">Ticket</div>
+          <div class="ticket-type-slection">Full-Pass</div>
+          <div>Valid Thru</div>
+          <div>All Week</div>
+          <div>Normal</div>
+          <div class="ticket-choice">
+            <label for="2500-5-days-normal">HNL2500</label>
+            <input id="2500-5-days-normal" value="2500-5-days-normal" type="radio" name="ticket-selection">
+          </div>
+          <div>Students</div>
+          <div class="ticket-choice">
+            <label for="1600-5-days-students">HNL1600</label>
+            <input id="1600-5-days-students" value="1600-5-days-students" type="radio" name="ticket-selection">
+          </div>
+        </div>
+        <div class="tickets-g-item partner-ticket">
+          <div class="ticket-type">Ticket</div>
+          <div class="ticket-type-slection">S&B Sponsors/Partners</div>
+          <div>Valid Thru</div>
+          <div>All Week</div>
+          <div>Normal</div>
+          <div class="ticket-choice">
+            <label for="0-5-days-normal">HNL0</label>
+            <input id="0-5-days-normal" value="0-5-days-normal" type="radio" name="ticket-selection">
+          </div>
+          <div>Students</div>
+          <div class="ticket-choice">
+            <label for="0-5-days-students">HNL0</label>
+            <input id="0-5-days-students" value="0-5-days-students" type="radio" name="ticket-selection">
+          </div>
+        </div>
+      </form>
     </section>
-    <!-- Copyright -->
-    <section class="copyright px-3 pt-4 mx-auto">
-      <h2 class="hidden copyright">copyright</h2>
-      <div class="copyright-info-container d-flex flex-wrap justify-content-around align-items-center overflow-hidden py-3">
-        <img src="assets/images/salsa-style-studio-logo.png" alt="Salsa Style Logo" class="salsa-style-logo m-3 p-3 flex-shrink-0">
-        <p class="copyright-text m-3 p-3">Salsa Style Studio Honduras.<br>All Rights Reserved.</p>
-      </div>
-    </section>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
-  <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

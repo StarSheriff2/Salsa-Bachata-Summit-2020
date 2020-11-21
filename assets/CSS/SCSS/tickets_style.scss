@@ -1,0 +1,197 @@
+/*
+  =======================
+  Global stylings
+  =======================
+*/
+
+@font-face {
+  font-family: 'Cocogoose_Regular';
+  src:  url('../fonts/cocogoose/Cocogoose_trial.otf') format('opentype'),
+        url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"),
+        url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"),
+        url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"),
+        url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Semilight';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Semilight-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Light';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Light-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Pro-Ultralight';
+  src: url('../fonts/cocogoose/Cocogoose\ Pro\ Ultralight-trial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cocogoose-Letter-press';
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS\ TRIAL.ttf") format("truetype");
+}
+
+html {
+  font-size: 13px;
+}
+
+// Background Colors //
+
+$primary-color: #ec5242;
+$secondary-color: #272a31;
+$gray: #d3d3d3;
+$light-gray: #f5f5f5;
+$ultra-light-gray: #fefefe;
+$gray-dark: #2e2e2e;
+$gray-semidark: #414246;
+
+// Fonts //
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Cocogoose_Regular', sans-serif;
+$secondary-font-semilight: 'Cocogoose-Pro-Semilight', sans-serif;
+$primary-font-light: 'Cocogoose-Pro-Light', sans-serif;
+
+// Font Colors //
+
+$gray-font: #565656;
+$white-font: rgba(255,255,255,0.8);
+
+@mixin font-styles($weight: 400, $font-size: 1em, $line-height: 1.3em, $font: $primary-font, $letter-spacing: normal) {
+  font: $weight #{$font-size}/#{$line-height} $font;
+  letter-spacing: $letter-spacing;
+}
+
+/*
+  =======================
+  General layout
+  =======================
+*/
+
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+
+body {
+  @include font-styles($font-size: 1rem, $line-height: 1.3rem);
+  color: $gray-font;
+}
+
+h1 {
+  @include font-styles($font-size: 1em, $line-height: 1.1em, $font: $secondary-font);
+}
+
+%h2 {
+  @include font-styles($font-size: 1.4em, $font: $primary-font, $letter-spacing: -0.3px);
+}
+
+h2 {
+  @extend %h2;
+}
+
+h3 {
+  @extend %h2;
+  font-size: 1.2em;
+}
+
+a {
+  @include font-styles(inherit, inherit, inherit, inherit);
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+  =======================
+  Select Tickets
+  =======================
+*/
+
+/* Instructions */
+
+.select-tickets {
+  font-size: 1rem;
+  background-color: $light-gray;
+}
+
+.ticket-buy-steps {
+  border-radius: 40px;
+  border-width: 2px;
+  border-color: $gray;
+  max-width: max-content;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.tickets-step-li::before {
+  content: "\2022";
+  color: $primary-color;
+  font-size: 1em;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+}
+
+ .ticket-buy-steps h3 {
+   color: $primary-color;
+   font-size: 1em;
+   text-transform: uppercase;
+   letter-spacing: -0.3px;
+ }
+
+/* Ticket Purchase Table */
+
+.tickets-g-container {
+  display: grid;
+  max-width: 450px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 50px;
+}
+
+.tickets-g-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  grid-gap: 1px;
+  border: 8px $primary-color dashed;
+  background-color: $gray;
+}
+
+.tickets-g-item div {
+  padding: 1em;
+  display: grid;
+  align-items: center;
+  background-color: $ultra-light-gray;
+}
+
+div.ticket-type,
+div.ticket-type-slection {
+  background-color: $light-gray;
+}
+
+
+.ticket-choice {
+  justify-content: center;
+  color: $primary-color;
+  font-size: 1.2em;
+}
