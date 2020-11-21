@@ -17,12 +17,31 @@
 
 <body>
   <!--======= Header =======-->
-  <header class="header p-3">
+  <header class="header">
     <h1 class="hidden">Header</h1>
-    <nav class="bottom-nav mb-2 overflow-hidden">
-      <h2 class="hidden">Mobile Menu</h2>
-      <button class="nav-button-mobile m-0 px-4 py-3 mb-2 bg-transparent border-0" type="button"><i
-          class="px-2 fas fa-bars"></i></button>
+    <nav class="top-nav d-none d-md-flex justify-content-end">
+      <ul class="social-media list-unstyled d-flex my-3">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="ml-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+      <ul class="user-nav list-unstyled d-flex my-3">
+        <li class="ml-3"><a href="#">English</a></li>
+        <li class="ml-3"><a href="#">My Page</a></li>
+        <li class="ml-3"><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+    <nav class="bottom-nav py-2 overflow-hidden px-3 d-md-flex align-items-center justify-content-between">
+      <a href="index.html" class="d-none d-md-inline"><img src="assets/images/logo-small.png" alt="S&B 2020 logo small" class="logo-small"></a>
+      <ul class="nav-links list-unstyled d-none d-md-flex align-items-center my-2">
+        <li><a href="#" class="primary-color-hl">About</a></li>
+        <li class="ml-5"><a href="#">Program</a></li>
+        <li class="ml-5"><a href="#"></a>Join</li>
+        <li class="ml-5"><a href="#"></a>Sponsor</li>
+        <li class="ml-5"><a href="#"></a>News</li>
+        <li class="s-b-campaign ml-5 px-3 py-2"><a href="#">S&B Campaign</a></li>
+      </ul>
+      <h2 class="hidden d-md-none">Mobile Menu</h2>
+      <button class="nav-button-mobile m-0 px-4 py-3 mb-2 bg-transparent border-0 d-md-none" type="button"><i class="px-2 fas fa-bars"></i></button>
     </nav>
   </header>
   <main class="main mb-4">
