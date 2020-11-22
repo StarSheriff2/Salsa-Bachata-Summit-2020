@@ -175,6 +175,10 @@ a:hover {
   =======================
 */
 
+.past-summit-grid {
+  max-width: 450px;
+}
+
 .past-summit-link {
   margin: 0.5em 0;
   color: $ultra-light-gray;
@@ -219,12 +223,16 @@ a:hover {
 
   /* Above Fold */
 
-  .above-fold {
-    padding-bottom: 1em;
+  .above-fold,
+  .past-summit-grid {
     max-width: 1200px;
-    margin: 0 auto;
     padding-left: 50px !important;
     padding-right: 50px !important;
+  }
+
+  .above-fold {
+    padding-bottom: 1em;
+    margin: 0 auto;
   }
 
   .main-section-title {
@@ -234,5 +242,18 @@ a:hover {
   .above-fold-para {
     margin: 0 auto;
     max-width: 100%;
+  }
+
+  /* Past S&B Summits */
+
+  .past-summit-grid-row {
+    margin: 0 -5px;
+  }
+
+  .past-summit-link {
+    margin: 0.5em 0;
+    color: $ultra-light-gray;
+    height: 0;
+    padding-top: 22.5%;
   }
 }
