@@ -139,7 +139,7 @@ a:hover {
 
 .top-nav,
 .bottom-nav {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -180,7 +180,7 @@ a:hover {
   background-color: $light-gray;
   font-size: 1rem;
   padding-bottom: 6.85em;
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -268,7 +268,7 @@ a:hover {
 .featured-speakers {
   font-size: 1rem;
   color: $secondary-color;
-  max-width: 650px;
+  max-width: 1200px;
 }
 
 .featured-speakers-title,
@@ -332,6 +332,11 @@ a:hover {
   color: $gray;
 }
 
+.partner-list {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
 .logo-container {
   width: 175px;
   height: 100px;
@@ -356,7 +361,6 @@ a:hover {
 .copyright {
   font-size: 1rem;
   color: $gray-font;
-  max-width: 650px;
 }
 
 .salsa-style-logo {
@@ -389,14 +393,14 @@ a:hover {
   .main-section-title {
     font-size: 5em;
   }
-  
+
   .above-fold-para {
     margin: 0;
   }
 
   /* Main Program */
   .main-program-container {
-    max-width: 900px;
+    max-width: 1200px;
   }
 
   .main-program-feature {
