@@ -273,6 +273,10 @@ div.ticket-type-slection {
 .partner-ticket {
     grid-template-columns: 1fr;
   }
+
+  .menu-choices {
+    grid-auto-flow: column;
+  }
 }
 
 /*# sourceMappingURL=tickets.css.map */

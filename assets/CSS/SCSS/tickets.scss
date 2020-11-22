@@ -324,5 +324,7 @@ div.ticket-type-slection {
     grid-template-columns: 1fr;
   }
 
-  
+  .menu-choices {
+    grid-auto-flow: column;
+  }
 }
