@@ -371,4 +371,23 @@ a:hover {
   .bottom-nav {
     background-color: $ultra-light-gray;
   }
+
+  /* Main Program */
+  .main-program-container {
+    max-width: 900px;
+  }
+
+  .main-program-feature {
+    grid-template-columns: auto;
+    grid-template-rows: 25% 25% auto;
+    justify-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .main-program-feature-para {
+    
+    align-self: start;
+  }
 }
