@@ -208,7 +208,14 @@ a:hover {
 
 .past-summit-bg {
   background-color: $primary-color;
+}
+
+.summit-bg-2019 {
   background: linear-gradient(rgba($color: black, $alpha: 0.2), rgba($color: black, $alpha: 0.2)), linear-gradient(rgba($color: $primary-color, $alpha: 0.8), rgba($color: $primary-color, $alpha: 0.8)), url("../images/S&BC2019.jpg") center center/cover;
+}
+
+.summit-bg-2018 {
+  background: linear-gradient(rgba($color: black, $alpha: 0.2), rgba($color: black, $alpha: 0.2)), linear-gradient(rgba($color: $primary-color, $alpha: 0.8), rgba($color: $primary-color, $alpha: 0.8)), url("../images/S&BC2018.jpg") center center/cover;
 }
 
 .past-summit-para {
