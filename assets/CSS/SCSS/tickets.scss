@@ -131,18 +131,27 @@ a:hover {
   =======================
 */
 
+.ticket-menu-form {
+  background-color: $ultra-light-gray;
+  padding-bottom: 50px;
+}
+
 /* Instructions */
 
 .bg-light-gray {
   background-color: $light-gray;
 }
 
+.select-tickets,
+.select-menu {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .select-tickets {
   font-size: 1rem;
   padding-top: 50px;
-  max-width: 600px;
   padding-bottom: 50px;
-  margin: 0 auto;
 }
 
 .ticket-buy-steps {
@@ -234,9 +243,8 @@ div.ticket-type-slection {
   =======================
 */
 
-.select-menu {
-  max-width: 600px;
-  margin: 0 auto;
+.bg-ultra-light-gray {
+  background-color: $ultra-light-gray;
 }
 
 .menu-g-container {
@@ -277,4 +285,44 @@ div.ticket-type-slection {
   border: none;
   margin: 3em 1em 1em;
   max-width: 275px;
+}
+
+/*
+  =======================
+  Media Query: MD
+  =======================
+*/
+
+@media (min-width: 768px) {
+
+  .select-tickets,
+  .select-menu {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  /* Ticket Type Selection */
+
+  .tickets-g-container {
+    grid-template-columns: 2fr repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 1px;
+    background-color: $gray;
+    border: 8px $primary-color dashed;
+  }
+
+  .ticket-1-day,
+  .ticket-2-day,
+  .full-pass-ticket,
+  .partner-ticket {
+    border: none;
+  }
+
+  .ticket-2-day,
+  .full-pass-ticket,
+  .partner-ticket {
+    grid-template-columns: 1fr;
+  }
+
+  
 }
