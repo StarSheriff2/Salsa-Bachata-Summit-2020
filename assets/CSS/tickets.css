@@ -119,7 +119,7 @@ a:hover {
 }
 
 .tickets-step-li::before {
-  content: "•";
+  content: "◆";
   color: #ec5242;
   font-size: 1em;
   font-weight: bolder;
