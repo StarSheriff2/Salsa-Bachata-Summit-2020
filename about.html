@@ -33,20 +33,34 @@
       </nav>
     </div>
     <div class="bottom-nav-wrapper">
-      <nav class="bottom-nav py-2 overflow-hidden px-3 px-md-3 d-md-flex align-items-center justify-content-between">
+      <nav class="bottom-nav py-2 px-3 px-md-3 d-md-flex align-items-center justify-content-between">
         <a href="index.html" class="d-none d-md-inline"><img src="assets/images/logo-small.png"
             alt="S&B 2020 logo small" class="logo-small"></a>
         <ul class="nav-links list-unstyled d-none d-md-flex align-items-center my-2">
-          <li><a href="#" class="primary-color-hl">About</a></li>
+          <li><a href="about.html" class="primary-color-hl">About</a></li>
           <li class="ml-5"><a href="#">Program</a></li>
-          <li class="ml-5"><a href="#">Join</a></li>
+          <li class="ml-5"><a href="tickets.html">Join</a></li>
           <li class="ml-5"><a href="#">Sponsor</a></li>
           <li class="ml-5"><a href="#">News</a></li>
           <li class="s-b-campaign ml-5 px-3 py-2"><a href="#">S&B Campaign</a></li>
         </ul>
         <h2 class="hidden d-md-none">Mobile Menu</h2>
-        <button class="nav-button-mobile mx-0 px-4 py-3 my-2 bg-transparent border-0 d-md-none" type="button"><i
-            class="px-2 fas fa-bars"></i></button>
+        <div class="dropdown">
+          <button class="nav-button-mobile mx-0 px-4 py-3 my-2 bg-transparent border-0 d-md-none" type="button"
+            id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+              class="px-2 fas fa-bars"></i></button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a href="index.html" class="dropdown-item">Home</a>
+            <a href="about.html" class="dropdown-item">About</a>
+            <a href="tickets.html" class="dropdown-item">Join</a>
+            <a href="#" class="dropdown-item">Program</a>
+            <a href="#" class="dropdown-item">Sponsor</a>
+            <a href="#" class="dropdown-item">News</a>
+            <a href="#" class="dropdown-item">S&B Campaign</a>
+            <a href="#" class="dropdown-item">Login</a>
+            <a href="#" class="dropdown-item">My Page</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -76,7 +90,7 @@
     <section class="logo-selection px-2 py-4 mx-auto overflow-hidden border">
       <h2 class="section-title d-flex justify-content-center position-relative my-3 pb-3 red-underline text-truncate">
         Salsa and Bachata Summit 2020 Logo</h2>
-      <p class="about-section-para text-center py-3">
+      <p class="about-section-para text-center p-3">
         The logo of the Salsa and Bachata Summit 2015 was decided through the logo competition from 8. April to 9.May.
         <span class="d-none d-sm-inline">After online public voting and Selection Committee's judging process, the logo
           from Omar Cartagena won the prize. After consultation with Mr. Cartagena we optimized the prize-winning-logo
@@ -96,7 +110,7 @@
       <div class="container-fluid past-summit-grid">
         <div class="row past-summit-grid-row">
           <div class="past-summit-link w-100 col-md-6 px-md-3 position-relative">
-            
+
             <div class="past-summit-bg mx-md-3 position-absolute summit-bg-2019">
               <a href="" class="stretched-link px-md-3"></a>
             </div>
@@ -106,7 +120,7 @@
             </div>
           </div>
           <div class="past-summit-link w-100 col-md-6 px-md-3 position-relative">
-            
+
             <div class="past-summit-bg mx-md-3 position-absolute summit-bg-2018">
               <a href="" class="stretched-link px-md-3"></a>
             </div>

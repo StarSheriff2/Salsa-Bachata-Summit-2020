@@ -231,6 +231,11 @@ div.ticket-type-slection {
   transform: translateY(-20px) rotate(45deg);
 }
 
+.rhombus-divider:hover {
+  border: 1px $gray-semidark solid;
+  box-shadow: 2px 2px 2px rgba($color: $secondary-color, $alpha: 0.3);
+}
+
 .fa-chevron-down {
   transform: rotate(-45deg);
   margin: 0 auto;

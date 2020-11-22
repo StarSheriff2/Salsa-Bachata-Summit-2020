@@ -96,6 +96,7 @@ a:hover {
 
 .above-fold-para {
   background-color: #fefefe;
+  margin: 0 auto;
 }
 
 .about-section-para {
@@ -191,7 +192,6 @@ a:hover {
   }
 
   .above-fold-para {
-    margin: 0 auto;
     max-width: 100%;
   }
 
