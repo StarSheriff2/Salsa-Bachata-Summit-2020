@@ -133,9 +133,18 @@ a:hover {
 
 /* Top Nav (Desktop) */
 
+.top-nav-wrapper {
+  background-color: $gray-semidark;
+}
+
+.top-nav,
+.bottom-nav {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .top-nav {
   color: $light-gray;
-  background-color: $gray-semidark;
 }
 
 /* Bottom Nav */
@@ -368,7 +377,7 @@ a:hover {
     background-color: $light-gray;
   }
 
-  .bottom-nav {
+  .bottom-nav-wrapper {
     background-color: $ultra-light-gray;
   }
 
