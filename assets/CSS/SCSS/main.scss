@@ -180,6 +180,9 @@ a:hover {
   background-color: $light-gray;
   font-size: 1rem;
   padding-bottom: 6.85em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-section-title {
@@ -381,6 +384,16 @@ a:hover {
     background-color: $ultra-light-gray;
   }
 
+  /* Above Fold */
+
+  .main-section-title {
+    font-size: 5em;
+  }
+  
+  .above-fold-para {
+    margin: 0;
+  }
+
   /* Main Program */
   .main-program-container {
     max-width: 900px;
@@ -396,7 +409,6 @@ a:hover {
   }
 
   .main-program-feature-para {
-    
     align-self: start;
   }
 }

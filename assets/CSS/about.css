@@ -163,4 +163,15 @@ a:hover {
   font-size: 1.2em;
 }
 
+@media (min-width: 768px) {
+  /* Above Fold */
+  .main-section-title {
+    font-size: 3em;
+  }
+
+  .above-fold-para {
+    margin: 0 auto;
+  }
+}
+
 /*# sourceMappingURL=about.css.map */
