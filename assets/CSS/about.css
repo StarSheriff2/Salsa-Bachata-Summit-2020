@@ -99,7 +99,7 @@ a:hover {
 }
 
 .about-section-para {
-  max-width: 450px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -110,6 +110,11 @@ a:hover {
 */
 .section-title {
   font-weight: 600;
+}
+
+.logo-frame {
+  max-width: max-content;
+  padding: 5% 20%;
 }
 
 .logo {
@@ -165,12 +170,21 @@ a:hover {
 
 @media (min-width: 768px) {
   /* Above Fold */
+  .above-fold {
+    padding-bottom: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
   .main-section-title {
-    font-size: 3em;
+    font-size: 3.5em;
   }
 
   .above-fold-para {
     margin: 0 auto;
+    max-width: 100%;
   }
 }
 
