@@ -6,11 +6,12 @@
 
 @font-face {
   font-family: 'Cocogoose_Regular';
-  src:  url('../fonts/cocogoose/Cocogoose_trial.otf') format('opentype'),
-        url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"),
-        url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"),
-        url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"),
-        url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  src:
+    url('../fonts/cocogoose/Cocogoose_trial.otf') format('opentype'),
+    url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"),
+    url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"),
+    url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"),
+    url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -51,15 +52,19 @@ $gray-semidark: #414246;
 
 // Fonts //
 
-$primary-font: 'Lato', sans-serif;
-$secondary-font: 'Cocogoose_Regular', sans-serif;
-$secondary-font-semilight: 'Cocogoose-Pro-Semilight', sans-serif;
-$primary-font-light: 'Cocogoose-Pro-Light', sans-serif;
+$primary-font: 'Lato',
+  sans-serif;
+$secondary-font: 'Cocogoose_Regular',
+  sans-serif;
+$secondary-font-semilight: 'Cocogoose-Pro-Semilight',
+  sans-serif;
+$primary-font-light: 'Cocogoose-Pro-Light',
+  sans-serif;
 
 // Font Colors //
 
 $gray-font: #565656;
-$white-font: rgba(255,255,255,0.8);
+$white-font: rgba(255, 255, 255, 0.8);
 
 @mixin font-styles($weight: 400, $font-size: 1em, $line-height: 1.3em, $font: $primary-font, $letter-spacing: normal) {
   font: $weight #{$font-size}/#{$line-height} $font;
@@ -90,6 +95,7 @@ $white-font: rgba(255,255,255,0.8);
 
 body {
   @include font-styles($font-size: 1rem, $line-height: 1.3rem);
+
   color: $gray-font;
   background-color: $light-gray;
 }
@@ -108,11 +114,13 @@ h2 {
 
 h3 {
   @extend %h2;
+
   font-size: 1.2em;
 }
 
 a {
   @include font-styles(inherit, inherit, inherit, inherit);
+
   color: inherit;
 }
 
@@ -191,7 +199,7 @@ a:hover {
 }
 
 .main-section-title span {
-  @include font-styles($weight: normal, $font-size: 0.55em, $line-height: 3em,$font: $primary-font-light);
+  @include font-styles($weight: normal, $font-size: 0.55em, $line-height: 3em, $font: $primary-font-light);
 }
 
 .above-fold-para {
@@ -229,7 +237,7 @@ a:hover {
 }
 
 .main-program-feature {
-  background-color: rgba(255,255,255,0.05);
+  background-color: rgba(255, 255, 255, 0.05);
   display: grid;
   grid-template-columns: 1fr 28% 58%;
   grid-column-gap: 1em;
@@ -284,8 +292,7 @@ a:hover {
 .profile-pattern {
   width: 45%;
   height: 45%;
-  background-color: $gray;
-  background: url("../images/black-square-pattern.png") -10px -5px/50% repeat;
+  background: $gray url("../images/black-square-pattern.png") -10px -5px/50% repeat;
 }
 
 .profile-picture {
@@ -377,7 +384,6 @@ a:hover {
 */
 
 @media (min-width: 768px) {
-
   /* Header */
 
   .header {

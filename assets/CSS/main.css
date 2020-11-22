@@ -9,22 +9,27 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Cocogoose-Pro-Semilight";
   src: url("../fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Cocogoose-Pro-Light";
   src: url("../fonts/cocogoose/Cocogoose Pro Light-trial.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Cocogoose-Pro-Ultralight";
   src: url("../fonts/cocogoose/Cocogoose Pro Ultralight-trial.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Cocogoose-Letter-press";
   src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
 }
+
 html {
   font-size: 13px;
 }
@@ -61,7 +66,8 @@ h1 {
   letter-spacing: normal;
 }
 
-h3, h2 {
+h3,
+h2 {
   font: 400 1.4em/1.3em "Lato", sans-serif;
   letter-spacing: -0.3px;
 }
@@ -71,7 +77,7 @@ h3 {
 }
 
 a {
-  font: inherit inherit/inherit inherit;
+  font: inherit;
   letter-spacing: normal;
   color: inherit;
 }
@@ -240,8 +246,7 @@ a:hover {
 .profile-pattern {
   width: 45%;
   height: 45%;
-  background-color: #d3d3d3;
-  background: url("../images/black-square-pattern.png") -10px -5px/50% repeat;
+  background: #d3d3d3 url("../images/black-square-pattern.png") -10px -5px/50% repeat;
 }
 
 .profile-picture {
@@ -279,6 +284,7 @@ a:hover {
   Footer
   =======================
 */
+
 /* Partner */
 .partner {
   font-size: 1rem;
