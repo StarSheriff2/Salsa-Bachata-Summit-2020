@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Salsa Conference and Festival Page - Microverse HTML & CSS Capstone Project
+# Salsa & Bachata Summit 2020 - Microverse HTML & CSS Capstone Project
 
 > This is fully responsive website for an annual Salsa festival. Advanced CSS was used to build this website, such as CSS Grids, Flexbox, Bootsrap and SAAS.
 
