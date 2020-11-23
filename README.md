@@ -53,12 +53,6 @@ Feel free to check the [issues page](https://github.com/StarSheriff2/HTML-CSS-Ca
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
 - Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
