@@ -14,22 +14,22 @@
 
 @font-face {
   font-family: "Cocogoose-Pro-Semilight";
-  src: url("../fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf") format("truetype");
+  src: url('../fonts/cocogoose/Cocogoose_Pro_Semilight-trial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Cocogoose-Pro-Light";
-  src: url("../fonts/cocogoose/Cocogoose Pro Light-trial.ttf") format("truetype");
+  src: url('../fonts/cocogoose/Cocogoose_Pro_Light-trial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Cocogoose-Pro-Ultralight";
-  src: url("../fonts/cocogoose/Cocogoose Pro Ultralight-trial.ttf") format("truetype");
+  src: url('../../fonts/cocogoose/Cocogoose_Pro_Ultralight-trial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Cocogoose-Letter-press";
-  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS TRIAL.ttf") format("truetype");
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS_TRIAL.ttf") format("truetype");
 }
 
 html {
