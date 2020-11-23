@@ -2,9 +2,9 @@
 
 # Salsa & Bachata Summit 2020 - Microverse HTML & CSS Capstone Project
 
-> This is fully responsive website for an annual Salsa festival. Advanced CSS was used to build this website, such as CSS Grids, Flexbox, Bootsrap and SAAS.
+> This is a fully responsive website for an annual Salsa festival. Advanced CSS was used to build this website, such as CSS Grids, Flexbox, Bootsrap and SAAS.
 
-This is a the capstone project for Microverse's HTML & CSS module. The project is based on this website [CC-Global-Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
+This is the capstone project for Microverse's HTML & CSS module. The project is based on this website [CC-Global-Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
 
 The requirements of the project were the following:
 
