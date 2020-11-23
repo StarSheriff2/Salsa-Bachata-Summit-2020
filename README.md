@@ -4,7 +4,7 @@
 
 > This is fully responsive website for an annual Salsa festival. Advanced CSS was used to build this website, such as CSS Grids, Flexbox, Bootsrap and SAAS.
 
-This is the capstone project for Microverse's HTML & CSS module. The project is based on this website [CC-Global-Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
+This is a the capstone project for Microverse's HTML & CSS module. The project is based on this website [CC-Global-Summit](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
 
 The requirements of the project were the following:
 
@@ -21,7 +21,7 @@ The website was develped according to the client's specifications: color, typogr
 The goal of the project was to apply Advanced CSS techniques employing CSS Grids, Flexbox, gradients, background-images, Bootsrap and SAAS.
 
 
-![screenshot](./assets/README/#################)
+![screenshot](./assets/README/Salsa_and_Bachata_Summit_Website_Screenshot.png)
 
 ## Built With
 
