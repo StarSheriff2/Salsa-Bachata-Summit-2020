@@ -319,6 +319,10 @@ div.ticket-type-slection {
     border: 8px $primary-color dashed;
   }
 
+  .tickets-g-item {
+    grid-template-rows: repeat(4, 1fr);
+  }
+
   .ticket-1-day,
   .ticket-2-day,
   .full-pass-ticket,
