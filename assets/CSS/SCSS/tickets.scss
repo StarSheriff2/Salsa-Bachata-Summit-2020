@@ -100,21 +100,21 @@ body {
   background-color: $light-gray;
 }
 
-h1 {
+h1,
+h2 {
   @include font-styles($font-size: 1em, $line-height: 1.1em, $font: $secondary-font);
 }
 
-%h2 {
+%h3 {
   @include font-styles($font-size: 1.4em, $font: $primary-font, $letter-spacing: -0.3px);
 }
 
-h2 {
-  @extend %h2;
+h3, 
+h4 {
+  @extend %h3;
 }
 
-h3 {
-  @extend %h2;
-
+h4 {
   font-size: 1.2em;
 }
 

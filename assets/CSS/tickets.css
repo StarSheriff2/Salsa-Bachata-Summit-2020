@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
   =======================
   Global stylings
@@ -11,27 +10,22 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Cocogoose-Pro-Semilight";
-  src: url('../fonts/cocogoose/Cocogoose_Pro_Semilight-trial.ttf') format('truetype');
+  src: url("../fonts/cocogoose/Cocogoose_Pro_Semilight-trial.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Cocogoose-Pro-Light";
-  src: url('../fonts/cocogoose/Cocogoose_Pro_Light-trial.ttf') format('truetype');
+  src: url("../fonts/cocogoose/Cocogoose_Pro_Light-trial.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Cocogoose-Pro-Ultralight";
-  src: url('../../fonts/cocogoose/Cocogoose_Pro_Ultralight-trial.ttf') format('truetype');
+  src: url("../../fonts/cocogoose/Cocogoose_Pro_Ultralight-trial.ttf") format("truetype");
 }
-
 @font-face {
   font-family: "Cocogoose-Letter-press";
   src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS_TRIAL.ttf") format("truetype");
 }
-
 html {
   font-size: 13px;
 }
@@ -63,23 +57,24 @@ body {
   background-color: #f5f5f5;
 }
 
-h1 {
+h1,
+h2 {
   font: 400 1em/1.1em "Cocogoose_Regular", sans-serif;
   letter-spacing: normal;
 }
 
 h3,
-h2 {
+h4 {
   font: 400 1.4em/1.3em "Lato", sans-serif;
   letter-spacing: -0.3px;
 }
 
-h3 {
+h4 {
   font-size: 1.2em;
 }
 
 a {
-  font: inherit;
+  font: inherit inherit/inherit inherit;
   letter-spacing: normal;
   color: inherit;
 }
@@ -259,7 +254,7 @@ div.ticket-type-slection {
 */
 @media (min-width: 768px) {
   .select-tickets,
-  .select-menu {
+.select-menu {
     padding-left: 50px !important;
     padding-right: 50px !important;
   }
@@ -278,15 +273,15 @@ div.ticket-type-slection {
   }
 
   .ticket-1-day,
-  .ticket-2-day,
-  .full-pass-ticket,
-  .partner-ticket {
+.ticket-2-day,
+.full-pass-ticket,
+.partner-ticket {
     border: none;
   }
 
   .ticket-2-day,
-  .full-pass-ticket,
-  .partner-ticket {
+.full-pass-ticket,
+.partner-ticket {
     grid-template-columns: 1fr;
   }
 
