@@ -74,7 +74,7 @@ h4 {
 }
 
 a {
-  font: inherit inherit/inherit inherit;
+  font: inherit 1em/1.3em "Lato", sans-serif;
   letter-spacing: normal;
   color: inherit;
 }

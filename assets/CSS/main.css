@@ -73,7 +73,7 @@ h4 {
 }
 
 a {
-  font: inherit inherit/inherit inherit;
+  font: inherit 1em/1.3em "Lato", sans-serif;
   letter-spacing: normal;
   color: inherit;
 }
@@ -96,6 +96,12 @@ a:hover {
   background-blend-mode: saturation;
   opacity: 15%;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo-credits {
+  color: rgba(255, 255, 255, 0.2);
+  z-index: 100;
+  font-size: 0.6em;
 }
 
 .header {

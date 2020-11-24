@@ -119,7 +119,7 @@ h4 {
 }
 
 a {
-  @include font-styles(inherit, inherit, inherit, inherit);
+  @include font-styles(inherit);
 
   color: inherit;
 }
