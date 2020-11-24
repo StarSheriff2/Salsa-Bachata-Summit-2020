@@ -109,7 +109,7 @@ h2 {
   @include font-styles($font-size: 1.4em, $font: $primary-font, $letter-spacing: -0.3px);
 }
 
-h3, 
+h3,
 h4 {
   @extend %h3;
 }
@@ -147,6 +147,7 @@ a:hover {
 
 .above-fold {
   padding-bottom: 1em;
+  padding-top: 20px;
 }
 
 .main-section-title {
@@ -232,7 +233,7 @@ a:hover {
   padding: 1.2em;
 }
 
-.past-summit-para h3 {
+.past-summit-para h4 {
   font-size: 2.7em;
   font-weight: 600;
 }

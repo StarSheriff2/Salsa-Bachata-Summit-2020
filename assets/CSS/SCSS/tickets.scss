@@ -109,7 +109,7 @@ h2 {
   @include font-styles($font-size: 1.4em, $font: $primary-font, $letter-spacing: -0.3px);
 }
 
-h3, 
+h3,
 h4 {
   @extend %h3;
 }
@@ -176,7 +176,7 @@ a:hover {
   width: 1em;
 }
 
-.ticket-buy-steps h3 {
+.ticket-buy-steps h4 {
   color: $primary-color;
   font-size: 1em;
   text-transform: uppercase;

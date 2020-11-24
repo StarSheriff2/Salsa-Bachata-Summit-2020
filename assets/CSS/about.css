@@ -99,6 +99,7 @@ a:hover {
 */
 .above-fold {
   padding-bottom: 1em;
+  padding-top: 20px;
 }
 
 .main-section-title {
@@ -182,7 +183,7 @@ a:hover {
   padding: 1.2em;
 }
 
-.past-summit-para h3 {
+.past-summit-para h4 {
   font-size: 2.7em;
   font-weight: 600;
 }
