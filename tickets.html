@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salsa and Bachata Summit 2020 - Tickets</title>
+  <link rel="stylesheet" href="assets/CSS/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/CSS/main.css">
+  <link rel="stylesheet" href="assets/CSS/tickets.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--======= Header =======-->
+  <header class="header">
+    <h2 class="hidden">Header</h2>
+    <div class="top-nav-wrapper">
+      <nav class="top-nav d-none d-md-flex px-md-3 justify-content-end">
+        <ul class="social-media list-unstyled d-flex my-3">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="ml-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <ul class="user-nav list-unstyled d-flex my-3">
+          <li class="ml-3"><a href="#">English</a></li>
+          <li class="ml-3"><a href="#">My Page</a></li>
+          <li class="ml-3"><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bottom-nav-wrapper">
+      <nav class="bottom-nav py-2 px-3 px-md-3 d-md-flex align-items-center justify-content-between">
+        <a href="index.html" class="d-none d-md-inline"><img src="assets/images/logo-small.png"
+            alt="S&B 2020 logo small" class="logo-small"></a>
+        <ul class="nav-links list-unstyled d-none d-md-flex align-items-center my-2">
+          <li><a href="about.html" class="primary-color-hl">About</a></li>
+          <li class="ml-5"><a href="#">Program</a></li>
+          <li class="ml-5"><a href="tickets.html">Join</a></li>
+          <li class="ml-5"><a href="#">Sponsor</a></li>
+          <li class="ml-5"><a href="#">News</a></li>
+          <li class="s-b-campaign ml-5 px-3 py-2"><a href="#">S&B Campaign</a></li>
+        </ul>
+        <h3 class="hidden d-md-none">Mobile Menu</h3>
+        <div class="dropdown d-md-none">
+          <button class="nav-button-mobile mx-0 px-4 py-3 my-2 bg-transparent border-0" type="button" id="dropdownMenu2"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="px-2 fas fa-bars"></i></button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a href="index.html" class="dropdown-item">Home</a>
+            <a href="about.html" class="dropdown-item">About</a>
+            <a href="tickets.html" class="dropdown-item">Join</a>
+            <a href="#" class="dropdown-item">Program</a>
+            <a href="#" class="dropdown-item">Sponsor</a>
+            <a href="#" class="dropdown-item">News</a>
+            <a href="#" class="dropdown-item">S&B Campaign</a>
+            <a href="#" class="dropdown-item">Login</a>
+            <a href="#" class="dropdown-item">My Page</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="hidden">Tickets Page</h1>
+    <!--======= Tickets Page Form =======-->
+    <!-- Ticket Type Selection -->
+    <form action="post" class="ticket-menu-form overflow-hidden text-center w-100">
+      <div class="bg-light-gray">
+        <section class="select-tickets px-3">
+          <h3 class="select-tickets-title d-flex justify-content-center position-relative my-3 pb-3 red-underline">
+            Select
+            Tickets</h3>
+          <div
+            class="ticket-buy-steps border overflow-hidden tickets-step-1 text-center justify-content-center align-items-center d-flex flex-wrap mx-auto px-4 py-3">
+            <ul class="m-0 list-unstyled">
+              <li class="tickets-step-li justify-content-center overflow-hidden align-items-center d-flex flex-nowrap">
+                <h4 class="my-0 p-2 text-nowrap"><a href="#">Step 1</a></h4>
+              </li>
+            </ul>
+            <p class="step-1-para my-0 p-2">Please select your ticket type to join S&B Summit 2020</p>
+          </div>
+          <div class="tickets-g-container my-4 mx-auto">
+            <div class="tickets-g-item ticket-1-day">
+              <div class="ticket-type">Ticket</div>
+              <div class="ticket-type-slection">1-Day-Ticket</div>
+              <div>Valid Thru</div>
+              <div>1 Day</div>
+              <div>Normal</div>
+              <div class="ticket-choice">
+                <label for="600-1-day-normal">HNL600</label>
+                <input id="600-1-day-normal" value="600-1-day-normal" type="radio" name="ticket-selection">
+              </div>
+              <div>Students</div>
+              <div class="ticket-choice">
+                <label for="300-1-day-student">HNL300</label>
+                <input id="300-1-day-student" value="300-1-day-student" type="radio" name="ticket-selection">
+              </div>
+            </div>
+            <div class="tickets-g-item ticket-2-day">
+              <div class="ticket-type d-md-none">Ticket</div>
+              <div class="ticket-type-slection">2-Day-Ticket</div>
+              <div class="d-md-none">Valid Thru</div>
+              <div>2 Days</div>
+              <div class="d-md-none">Normal</div>
+              <div class="ticket-choice">
+                <label for="HNL1000-2-days-normal">HNL1000</label>
+                <input id="HNL1000-2-days-normal" value="1000-2-days-normal" type="radio" name="ticket-selection">
+              </div>
+              <div class="d-md-none">Students</div>
+              <div class="ticket-choice">
+                <label for="500-2-days-students">HNL500</label>
+                <input id="500-2-days-students" value="500-2-days-students" type="radio" name="ticket-selection">
+              </div>
+            </div>
+            <div class="tickets-g-item full-pass-ticket">
+              <div class="ticket-type d-md-none">Ticket</div>
+              <div class="ticket-type-slection">Full-Pass</div>
+              <div class="d-md-none">Valid Thru</div>
+              <div>All Week</div>
+              <div class="d-md-none">Normal</div>
+              <div class="ticket-choice">
+                <label for="2500-5-days-normal">HNL2500</label>
+                <input id="2500-5-days-normal" value="2500-5-days-normal" type="radio" name="ticket-selection">
+              </div>
+              <div class="d-md-none">Students</div>
+              <div class="ticket-choice">
+                <label for="1600-5-days-students">HNL1600</label>
+                <input id="1600-5-days-students" value="1600-5-days-students" type="radio" name="ticket-selection">
+              </div>
+            </div>
+            <div class="tickets-g-item partner-ticket">
+              <div class="ticket-type d-md-none">Ticket</div>
+              <div class="ticket-type-slection">S&B Sponsors/Partners</div>
+              <div class="d-md-none">Valid Thru</div>
+              <div>All Week</div>
+              <div class="d-md-none">Normal</div>
+              <div class="ticket-choice">
+                <label for="0-5-days-normal">HNL0</label>
+                <input id="0-5-days-normal" value="0-5-days-normal" type="radio" name="ticket-selection">
+              </div>
+              <div class="d-md-none">Students</div>
+              <div class="ticket-choice">
+                <label for="0-5-days-students">HNL0</label>
+                <input id="0-5-days-students" value="0-5-days-students" type="radio" name="ticket-selection">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Mid-Form Button -->
+      <a href="#select-menu">
+        <div class="rhombus-divider"><i class="fas fa-chevron-down"></i></div>
+      </a>
+      <!-- Menu Selection -->
+      <div class="bg-ultra-light-gray">
+        <section id="select-menu" class="select-menu px-3">
+          <h3 class="select-tickets-title d-flex justify-content-center position-relative my-3 pb-3 red-underline">
+            Select
+            Your Lunch</h3>
+          <div
+            class="ticket-buy-steps border overflow-hidden tickets-step-1 text-center justify-content-center align-items-center d-flex flex-wrap mx-auto px-4 py-3">
+            <ul class="m-0 list-unstyled">
+              <li class="tickets-step-li justify-content-center overflow-hidden align-items-center d-flex flex-nowrap">
+                <h4 class="my-0 p-2 text-nowrap"><a href="#">Step 2</a></h4>
+              </li>
+            </ul>
+            <p class="step-2-para my-0 p-2">Please select your lunch plan. There will be no further costs for the lunch
+            </p>
+          </div>
+          <div class="menu-g-container my-4 mx-auto">
+            <div class="menu-g-item menu-1-day">
+              <div class="menu-g-item-title p-3">1 Day Ticket Menu</div>
+              <div class="menu-choices">
+                <div class="menu-choice">
+                  <label for="menu-1-1-day">menu 1</label>
+                  <input type="radio" id="menu-1-1-day" value="menu-1-1-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-2-1-day">menu 2</label>
+                  <input type="radio" id="menu-2-1-day" value="menu-2-1-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-3-1-day">menu 3</label>
+                  <input type="radio" id="menu-3-1-day" value="menu-3-1-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-4-1-day">menu 4</label>
+                  <input type="radio" id="menu-4-1-day" value="menu-4-1-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-5-1-day">menu 5</label>
+                  <input type="radio" id="menu-5-1-day" value="menu-5-1-day" name="menu-slection">
+                </div>
+              </div>
+            </div>
+            <div class="menu-g-item menu-2-day">
+              <div class="menu-g-item-title p-3">2-Day Ticket Menu</div>
+              <div class="menu-choices">
+                <div class="menu-choice">
+                  <label for="menu-1-2-day">menu 1</label>
+                  <input type="radio" id="menu-1-2-day" value="menu-1-2-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-2-2-day">menu 2</label>
+                  <input type="radio" id="menu-2-2-day" value="menu-2-2-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-3-2-day">menu 3</label>
+                  <input type="radio" id="menu-3-2-day" value="menu-3-2-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-4-2-day">menu 4</label>
+                  <input type="radio" id="menu-4-2-day" value="menu-4-2-day" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-5-2-day">menu 5</label>
+                  <input type="radio" id="menu-5-2-day" value="menu-5-2-day" name="menu-slection">
+                </div>
+              </div>
+            </div>
+            <div class="menu-g-item full-pass-day-menu">
+              <div class="menu-g-item-title p-3">Full-pass Ticket Menu</div>
+              <div class="menu-choices">
+                <div class="menu-choice">
+                  <label for="menu-1-full-pass">menu 1</label>
+                  <input type="radio" id="menu-1-full-pass" value="menu-1-full-pass" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-2-full-pass">menu 2</label>
+                  <input type="radio" id="menu-2-full-pass" value="menu-2-full-pass" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-3-full-pass">menu 3</label>
+                  <input type="radio" id="menu-3-full-pass" value="menu-3-full-pass" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-4-full-pass">menu 4</label>
+                  <input type="radio" id="menu-4-full-pass" value="menu-4-full-pass" name="menu-slection">
+                </div>
+                <div class="menu-choice">
+                  <label for="menu-5-full-pass">menu 5</label>
+                  <input type="radio" id="menu-5-full-pass" value="menu-5-full-pass" name="menu-slection">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <button type="submit" class="ticket-submit-button overflow-hidden text-wrap text-center">Submit Ticket and Menu
+          Selection</button>
+      </div>
+    </form>
+  </main>
+  <!--======= Footer =======-->
+  <footer class="footer pb-4 mx-auto">
+    <h2 class="hidden">footer</h2>
+    <!-- Partner -->
+    <section class="partner px-3 py-4">
+      <h3 class="partner-title d-flex justify-content-center position-relative my-3 pb-3 red-underline">Partner</h3>
+      <div class="partner-list d-flex flex-wrap overflow-hidden justify-content-around">
+        <div class="logo-container d-flex align-items-center">
+          <img src="assets/images/aa-logo.png" alt="American Airlines logo" class="logo aa-logo">
+        </div>
+        <div class="logo-container d-flex align-items-center">
+          <img src="assets/images/booking-logo.png" alt="Booking.com logo" class="logo color-correction booking-logo">
+        </div>
+        <div class="logo-container d-flex align-items-center">
+          <img src="assets/images/trivago-logo.png" alt="Trivago logo" class="logo color-correction trivago-logo">
+        </div>
+        <div class="logo-container d-flex align-items-center">
+          <img src="assets/images/absolut-vodka-logo.png" alt="Absolut Vodka logo" class="logo absolut-logo">
+        </div>
+        <div class="logo-container d-flex align-items-center">
+          <img src="assets/images/marriot-logo.png" alt="Marriot Hotels logo" class="logo marriot-logo">
+        </div>
+      </div>
+    </section>
+    <!-- Copyright -->
+    <section class="copyright px-3 pt-4 mx-auto">
+      <h3 class="hidden copyright">copyright</h3>
+      <div
+        class="copyright-info-container d-flex flex-wrap justify-content-center align-items-center overflow-hidden py-3">
+        <img src="assets/images/salsa-style-studio-logo.png" alt="Salsa Style Logo"
+          class="salsa-style-logo m-3 p-3 flex-shrink-0">
+        <p class="copyright-text m-3 p-3">Salsa Style Studio Honduras.<br>All Rights Reserved.</p>
+      </div>
+    </section>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,411 @@
+/*
+  =======================
+  Global stylings
+  =======================
+*/
+@font-face {
+  font-family: "Cocogoose_Regular";
+  src: url("../fonts/cocogoose/Cocogoose_trial.otf") format("opentype"), url("../fonts/cocogoose/Cocogoose_trial.eot?") format("eot"), url("../fonts/cocogoose/Cocogoose_trial.woff") format("woff"), url("../fonts/cocogoose/Cocogoose_trial.ttf") format("truetype"), url("../fonts/cocogoose/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Semilight";
+  src: url("../fonts/cocogoose/Cocogoose_Pro_Semilight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Light";
+  src: url("../fonts/cocogoose/Cocogoose_Pro_Light-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Pro-Ultralight";
+  src: url("../../fonts/cocogoose/Cocogoose_Pro_Ultralight-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cocogoose-Letter-press";
+  src: url("../fonts/cocogoose/COCOGOOSELETTERPRESS_TRIAL.ttf") format("truetype");
+}
+html {
+  font-size: 13px;
+}
+
+/*
+  =======================
+  General layout
+  =======================
+*/
+.hidden {
+  position: absolute;
+  left: -9999999px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+body {
+  font: 600 1rem/1.3rem "Lato", sans-serif;
+  letter-spacing: normal;
+  color: #565656;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2 {
+  font: 400 1em/1.1em "Cocogoose_Regular", sans-serif;
+  letter-spacing: normal;
+}
+
+h3,
+h4 {
+  font: 400 1.4em/1.3em "Lato", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+a {
+  font: inherit 1em/1.3em "Lato", sans-serif;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+  =======================
+  Header
+  =======================
+*/
+.bg-header {
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(gray, gray), url("../images/header-bg.jpg") center/cover, transparent;
+  background-blend-mode: saturation;
+  opacity: 15%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo-credits {
+  color: rgba(255, 255, 255, 0.2);
+  z-index: 100;
+  font-size: 0.6em;
+}
+
+.header {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Top Nav (Desktop) */
+.top-nav-wrapper {
+  background-color: #414246;
+}
+
+.top-nav,
+.bottom-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  color: #f5f5f5;
+}
+
+/* Bottom Nav */
+.logo-small {
+  width: 30px;
+  height: 30px;
+}
+
+.primary-color-hl,
+.s-b-campaign {
+  color: #ec5242;
+}
+
+.s-b-campaign {
+  border: 4px solid #ec5242;
+}
+
+/* Mobile Button */
+.fa-bars {
+  font-size: 3.5em;
+  color: #565656;
+}
+
+/*
+  =======================
+  Above the Fold
+  =======================
+*/
+.above-fold {
+  background-color: #f5f5f5;
+  font-size: 1rem;
+  padding-bottom: 6.85em;
+  padding-top: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-section-title {
+  font-size: 2.3em;
+  color: #ec5242;
+}
+
+.main-section-title span {
+  font: normal 0.55em/3em "Cocogoose-Pro-Light", sans-serif;
+  letter-spacing: normal;
+}
+
+.above-fold-para {
+  max-width: 650px;
+  margin: 0;
+}
+
+.event-date {
+  font: 400 1.75em/1.1em "Cocogoose_Regular", sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.event-date-para {
+  font-size: 1.08em;
+}
+
+/*
+  =======================
+  Main Program
+  =======================
+*/
+.main-program {
+  background-color: #272a31;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.red-underline::before {
+  position: absolute;
+  content: "";
+  border-bottom: #ec5242 2px solid;
+  bottom: 0;
+  width: 35px;
+}
+
+.main-program-feature {
+  background-color: rgba(255, 255, 255, 0.05);
+  display: grid;
+  grid-template-columns: 1fr 28% 58%;
+  grid-column-gap: 1em;
+  align-items: center;
+  max-width: 650px;
+  position: relative;
+}
+
+.feature-hover-effect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.feature-hover-effect:hover {
+  border: white solid 2px;
+}
+
+.main-program-feature i.fas {
+  font-size: 2em;
+  text-align: right;
+}
+
+.main-program-feature-title {
+  color: #ec5242;
+}
+
+.main-program-feature-para {
+  line-height: 1.4em;
+}
+
+.main-program-mobile-join {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: #ec5242;
+  padding: 1.8em 0;
+  width: 300px;
+  min-width: auto;
+}
+
+/*
+  =======================
+  Featured Speakers
+  =======================
+*/
+.featured-speakers {
+  font-size: 1rem;
+  color: #272a31;
+  max-width: 1200px;
+}
+
+.featured-speakers-title,
+.speaker-name {
+  font-weight: 600;
+}
+
+.profile-picture-div {
+  width: 140px;
+  height: 140px;
+}
+
+.profile-pattern {
+  width: 45%;
+  height: 45%;
+  background: #d3d3d3 url("../images/black-square-pattern.png") -10px -5px/50% repeat;
+}
+
+.profile-picture {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  bottom: 0;
+  right: 0;
+}
+
+.position-correction {
+  object-position: center top;
+}
+
+.speaker-name {
+  font-size: 1.15em;
+}
+
+.speaker-sub-title {
+  color: #ec5242;
+}
+
+.featured-speakers-profile hr {
+  width: 1.3em;
+  border-color: #d3d3d3;
+  border-width: 2px;
+}
+
+.speaker-summary {
+  font-size: 0.9em;
+}
+
+/*
+  =======================
+  Footer
+  =======================
+*/
+/* Partner */
+.partner {
+  font-size: 1rem;
+  background-color: #414246;
+  color: #d3d3d3;
+}
+
+.partner-list {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  width: 175px;
+  height: 100px;
+  padding: 25px;
+}
+
+.logo {
+  width: 100%;
+  min-width: 125px;
+  height: auto;
+  object-fit: contain;
+  opacity: 77%;
+}
+
+.color-correction {
+  -webkit-filter: brightness(0) invert(100%);
+  filter: brightness(0) invert(100%);
+}
+
+/* Copyright */
+.copyright {
+  font-size: 1rem;
+  color: #565656;
+}
+
+.salsa-style-logo {
+  width: 175px;
+  box-sizing: content-box;
+  filter: grayscale(100%);
+  opacity: 77%;
+}
+
+/*
+  =======================
+  Media Query: MD
+  =======================
+*/
+@media (min-width: 768px) {
+  /* Global Stylings */
+  html {
+    font-size: 15px;
+  }
+
+  /* Top Background Image */
+  .bg-header {
+    top: 123px;
+    height: 155px;
+  }
+
+  /* Header */
+  .header {
+    background-color: #f5f5f5;
+  }
+
+  .bottom-nav-wrapper {
+    background-color: #fefefe;
+  }
+
+  /* Above Fold */
+  .main-section-title {
+    font-size: 4.8em;
+  }
+
+  .above-fold-para {
+    margin: 0;
+  }
+
+  /* Main Program */
+  .main-program-container {
+    max-width: 1200px;
+  }
+
+  .main-program-feature {
+    grid-template-columns: auto;
+    grid-template-rows: 40px 40px auto;
+    justify-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .main-program-feature-para {
+    align-self: start;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
