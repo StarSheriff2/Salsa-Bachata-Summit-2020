@@ -94,7 +94,7 @@ $white-font: rgba(255, 255, 255, 0.8);
 */
 
 body {
-  @include font-styles($font-size: 1rem, $line-height: 2rem);
+  @include font-styles($weight: 600, $font-size: 1rem, $line-height: 1.3rem);
 
   color: $gray-font;
   background-color: $light-gray;
@@ -249,6 +249,12 @@ a:hover {
 */
 
 @media (min-width: 768px) {
+  /* Global Stylings */
+
+  html {
+    font-size: 15px;
+  }
+
   /* Above Fold */
 
   .above-fold,
@@ -264,7 +270,7 @@ a:hover {
   }
 
   .main-section-title {
-    font-size: 3.5em;
+    font-size: 3.3em;
   }
 
   .above-fold-para {

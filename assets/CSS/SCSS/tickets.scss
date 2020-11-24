@@ -94,7 +94,7 @@ $white-font: rgba(255, 255, 255, 0.8);
 */
 
 body {
-  @include font-styles($font-size: 1rem, $line-height: 1.3rem);
+  @include font-styles($weight: 600, $font-size: 1rem, $line-height: 1.3rem);
 
   color: $gray-font;
   background-color: $light-gray;
@@ -303,6 +303,12 @@ div.ticket-type-slection {
 */
 
 @media (min-width: 768px) {
+  /* Global Stylings */
+
+  html {
+    font-size: 15px;
+  }
+
   .select-tickets,
   .select-menu {
     padding-left: 50px !important;
