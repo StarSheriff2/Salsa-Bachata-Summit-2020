@@ -139,11 +139,10 @@ a:hover {
   top: 0;
   width: 100%;
   height: 140px;
-  background-color: transparent;
-  background: linear-gradient(gray, gray), url("../images/header-bg.jpg") center/cover;
+  background: linear-gradient(gray, gray), url("../images/header-bg.jpg") center/cover, transparent;
   background-blend-mode: saturation;
   opacity: 15%;
-  box-shadow: 4px 4px 4px 4px rgba($color: black, $alpha: 0.20);
+  box-shadow: 4px 4px 4px 4px rgba($color: black, $alpha: 0.2);
 }
 
 .header {
@@ -415,7 +414,7 @@ a:hover {
   html {
     font-size: 15px;
   }
-  
+
   /* Top Background Image */
 
   .bg-header {
