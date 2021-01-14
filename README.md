@@ -33,7 +33,7 @@ The goal of the project was to apply Advanced CSS techniques employing CSS Grids
 
 ## Live Demo
 
-[Live Demo](https://starsheriff2.github.io/HTML-CSS-Capstone-Project/)
+[Live Demo](https://starsheriff2.github.io/Salsa-Bachata-Summit-2020---HTML-CSS-Capstone-Project/)
 
 ## Author
 
