@@ -40,7 +40,7 @@ The goal of the project was to apply Advanced CSS techniques employing CSS Grids
 👤 **Arturo Alvarez**
 
 - GitHub: [@StarSheriff2](https://github.com/StarSheriff2)
-- LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/carlosalvarezveroy/)
+- LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
 - Twitter: [@Turo_83](https://twitter.com/Turo_83)
 
 ## Contributing
